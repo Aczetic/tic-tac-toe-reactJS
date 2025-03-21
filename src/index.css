@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#root {
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "GlueGun";
+  src: url("./fonts/GlueGun.ttf");
+}
+html,
+body {
+  width: 100vw;
+  font-family: GlueGun;
+}
+
+body {
+  background-color: #ee66a6;
+}
